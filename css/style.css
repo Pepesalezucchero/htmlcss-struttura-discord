@@ -79,3 +79,81 @@ a{
     margin: auto;
     border: 2px dashed black;
 }
+
+/*sezione main*/
+
+/*prima sezione main*/
+.contenitore_main_1{
+    display: flex;
+    min-height: 350px;
+}
+
+.immagine_sezione_1{
+    flex-basis: 45%;
+
+    /*debug*/
+    background-color: rgba(33, 95, 119, 0.973);
+    min-height: 275px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 2px dashed black;
+}
+
+.testo_sezione_1{
+    flex-basis: 25%;
+
+    /*debug*/
+    background-color: pink;
+    min-height: 275px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 2px dashed black;
+}
+
+.contenitore_main_2{
+    display: flex;
+    min-height: 350px;
+    background-color: grey;
+}
+
+.immagine_sezione_2{
+    flex-basis: 25%;
+
+    /*debug*/
+    background-color: rgba(33, 95, 119, 0.973);
+    min-height: 275px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 2px dashed black;
+}
+
+.testo_sezione_2{
+    flex-basis: 45%;
+
+    /*debug*/
+    background-color: pink;
+    min-height: 275px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 2px dashed black;
+}
+
+.contenitore_main_3{
+    display: flex;
+    min-height: 550px;
+    background-color: grey;
+}
+
+.sezione_3{
+    flex-basis: 70%;
+
+    /*debug*/
+    background-color: green;
+    min-height: 475px;
+    margin: auto;
+    border: 2px dashed black;
+}
